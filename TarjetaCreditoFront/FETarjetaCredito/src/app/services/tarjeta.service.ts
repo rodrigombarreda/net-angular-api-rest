@@ -7,12 +7,12 @@ import { Observable } from 'rxjs';
 })
 export class TarjetaService {
 private myAppUrl='https://localhost:44345/'
-private myApiUrl='api/tarjeta/'
+private myApiUrl='api/TarjetaCredito/'
   constructor(private http:HttpClient) {
    
    }
-   getListTarjetas():Observable<any>{
-    return this.http.get(this.myAppUrl + this.myApiUrl)
+   getListTarjetas(): Observable<any> {
+    return this.http.get('https://localhost:44345/api/TarjetaCredito');
   }
   deleteTarjeta(id:number):Observable<any>{
     return this.http.delete(this.myAppUrl + this.myApiUrl+id)

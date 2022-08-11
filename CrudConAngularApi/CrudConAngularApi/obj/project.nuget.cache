@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AiwItjkF6o912/geNYY8PaM16jJXCAuZg0apd/QCzbSJyh6ZZQ3tKyNXgBehSNlhCXs6nCSRUdsW3iOflo70Vw==",
+  "dgSpecHash": "IyYR/4AwRurhmqr1MypeNysu3G8OdX8ibwjgkxpBqGMBszBN6wWnrcscEM/qcsPhpTgvKXtjNGePsStbMC2q9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rodrigo.barreda\\source\\repos\\CrudConAngularApi\\CrudConAngularApi\\CrudConAngularApi.csproj",
+  "projectFilePath": "C:\\Users\\rodrigo.barreda\\Desktop\\proyecto\\net-angular-api-rest\\CrudConAngularApi\\CrudConAngularApi\\CrudConAngularApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodrigo.barreda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rodrigo.barreda\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

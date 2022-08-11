@@ -10,5 +10,6 @@ namespace CrudConAngularApi
 
         }
         public DbSet<TarjetaCredito> TarjetaCredito { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }

@@ -9667,11 +9667,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodrigo.barreda\\source\\repos\\CrudConAngularApi\\CrudConAngularApi\\CrudConAngularApi.csproj",
+      "projectUniqueName": "C:\\Users\\rodrigo.barreda\\Desktop\\proyecto\\net-angular-api-rest\\CrudConAngularApi\\CrudConAngularApi\\CrudConAngularApi.csproj",
       "projectName": "CrudConAngularApi",
-      "projectPath": "C:\\Users\\rodrigo.barreda\\source\\repos\\CrudConAngularApi\\CrudConAngularApi\\CrudConAngularApi.csproj",
+      "projectPath": "C:\\Users\\rodrigo.barreda\\Desktop\\proyecto\\net-angular-api-rest\\CrudConAngularApi\\CrudConAngularApi\\CrudConAngularApi.csproj",
       "packagesPath": "C:\\Users\\rodrigo.barreda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodrigo.barreda\\source\\repos\\CrudConAngularApi\\CrudConAngularApi\\obj\\",
+      "outputPath": "C:\\Users\\rodrigo.barreda\\Desktop\\proyecto\\net-angular-api-rest\\CrudConAngularApi\\CrudConAngularApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rodrigo.barreda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9741,7 +9741,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
