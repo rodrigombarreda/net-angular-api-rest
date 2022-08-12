@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CrudConAngularApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace CrudConAngularApi.Controllers
 {
@@ -14,10 +16,15 @@ namespace CrudConAngularApi.Controllers
         {
             _context = context;
         }
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("{usuario},{contrasenia}")]
+        public async Task<IActionResult> Get(String usuario, String contrasenia)
         {
-            return "value";
+            var es_valido = new SqlParameter("@es_valido", SqlDbType.Bit);
+            es_valido.Direction = ParameterDirection.Output;
+
+            await _context.Database.ExecuteSqlInterpolatedAsync($@"EXEC sp_login @usuario={usuario},@contrasenia={contrasenia},@es_valido={es_valido} OUTPUT");
+            var valido = (bool)es_valido.Value;
+            return Ok(valido);
         }
 
         [HttpPost]

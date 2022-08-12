@@ -1,14 +1,14 @@
-<form>
+<form [formGroup]="form" (ngSubmit)="usuarioValido()">
 
     <div class="form-outline mb-4">
-        <input type="email" id="form2Example1" class="form-control" />
+        <input type="email"  formControlName="usuario" type="text"  id="form2Example1" class="form-control" />
         <label class="form-label" for="form2Example1">Usuario</label>
     </div>
     <div class="form-outline mb-4">
-        <input type="password" id="form2Example2" class="form-control" />
+        <input type="password" formControlName="contrasenia" id="form2Example2" class="form-control" />
         <label class="form-label" for="form2Example2">Contraseña</label>
     </div>
-    <button type="button" class="btn btn-primary btn-block mb-4">Iniciar sesion</button>
+    <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar sesion</button>
     <div class="text-center">
         <a [routerLink]="['/register']">Register</a>
 
